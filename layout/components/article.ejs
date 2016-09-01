@@ -14,7 +14,7 @@
     <% } %>
     <% if (author && item.author) { %>
     <% // if (false) { %>
-    <a href="<%- config.root %><%- 'author/' + item.authorId %>"><h4><%= item.author.name %></h4></a>
+    <a class="article-top-author" href="<%- config.root %><%- 'author/' + item.authorId %>"><h4><%= item.author.name %></h4></a>
     <% } %>
   <% } %>
 
